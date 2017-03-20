@@ -1,0 +1,167 @@
+{
+    "boxes": [
+        {
+            "colour":"pbox-c1",
+            "title":"TEXT EDITORS",
+            "items":[
+                {
+                    "title":"Emacs",
+                    "img":"picons/emacs.png"
+                },
+
+                {
+                    "title":"Visual Studio",
+                    "img":"picons/vs.png"
+                },
+
+                {
+                    "title":"Visual Studio Code",
+                    "img":"picons/vsc.png"
+                }
+            ]
+        },
+
+        {
+            "colour": "pbox-c2",
+            "title": "MICROSOFT OFFICE",
+            "items": [
+                {
+                    "img": "picons/word.png",
+                    "title": "Word"
+                },
+                
+                {
+                    "img":"picons/ppt.png",
+                    "title":"Powerpoint"
+                },
+                
+                {
+                    "img":"picons/xcel.png",
+                    "title":"Excel"
+                }
+            ]
+        },
+
+        {
+            "colour":"pbox-c3",
+            "title":"IMAGE",
+            "items":[
+                {
+                    "title":"Adobe Photoshop",
+                    "img":"picons/ps.jpg"
+                },
+
+                {
+                    "title":"Paint Tool SAI",
+                    "img":"picons/sai.png"
+                }
+            ]
+        },
+
+        {
+            "title":"PRIMARY LANGUAGES",
+            "colour":"pbox-c4",
+            "items":[
+                {
+                    "title":"C/C++",
+                    "img":"picons/cpp.png"       
+                },
+
+                {
+                    "title":"Python",
+                    "img":"picons/py.png"
+                },
+
+                {
+                    "title":"HTML/Javascript/CSS",
+                    "img":"picons/js.png"
+                }
+            ]
+        },
+
+        {
+            "title":"OTHER LANGUAGES",
+            "colour":"pbox-c5",
+            "items":[
+                {
+                    "title":"matlab",
+                    "img":"picons/ml.png"
+                },
+
+                {
+                    "title":"lisp",
+                    "img":"picons/lisp.png"
+                },
+
+                {
+                    "title":"sql",
+                    "img":"picons/sql.png"
+                }   
+            ]
+        },
+
+        {
+            "title":"OPERATING SYSTEMS",
+            "colour":"pbox-c6",
+            "items":[
+                {
+                    "title":"Windows",
+                    "img":"picons/win.png"
+                },
+
+                {
+                    "title":"Linux:",
+                    "img":"picons/linux.png"
+                },
+
+                {
+                    "title":"Ubuntu",
+                    "img":"picons/ubuntu.png"
+                },
+
+                {
+                    "title":"Debian",
+                    "img":"picons/deb.png"
+                }                
+            ]        
+        },
+
+        {
+            "title":"VERSION CONTROL",
+            "colour":"pbox-c7",
+            "items":[
+                {
+                    "title":"git",
+                    "img":"picons/git.png"
+                },
+
+                {
+                    "title":"Github",
+                    "img":"picons/github.png"
+                }
+            ]            
+        },
+
+        {
+            "title":"WEB",
+            "colour":"pbox-c8",
+            "items":[
+                {
+                    "title":"Chrome",
+                    "img":"picons/chrome.png"
+                }
+            ]
+        },
+
+        {
+            "title":"FUTURE",
+            "colour": "pbox-c9",
+            "items":[
+                {
+                    "title":"...and always ready to learn more!",
+                    "img":"picons/more.png"
+                }
+            ]
+        }
+    ]
+}
