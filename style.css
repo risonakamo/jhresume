@@ -17,13 +17,26 @@ p
 .wrap
 {
     position: relative;
-    width: 1000px;
+    width: 1100px;
     margin: auto;
+}
+
+.title-bar
+{
+    height: 100px;
+    width: 400px;
+}
+
+.title-bar .title
+{
+    font-size: 20px;
+
 }
 
 .program-box-box
 {
     display: inline-block;
+    vertical-align: top;
     background-color: rgba(255,255,255,.4);
     border-radius: 3px;
     border-top-style: solid;
@@ -97,4 +110,64 @@ p
 .pbox-c3b
 {
     color: rgb(17,17,43);
+}
+
+.pbox-c4a
+{
+    border-top-color: #72308f;
+}
+
+.pbox-c4b
+{
+    color: #72308f;
+}
+
+.pbox-c5a
+{
+    border-top-color: #ffde59;
+}
+
+.pbox-c5b
+{
+    color: #ffde59;
+}
+
+.pbox-c6a
+{
+    border-top-color: #8c8c8c;
+}
+
+.pbox-c6b
+{
+    color: #8c8c8c;
+}
+
+.pbox-c7a
+{
+    border-top-color: #2aad48;
+}
+
+.pbox-c7b
+{
+    color: #2aad48;
+}
+
+.pbox-c8a
+{
+    border-top-color: #d93d2f;
+}
+
+.pbox-c8b
+{
+    color: #d93d2f;
+}
+
+.pbox-c9a
+{
+    border-top-color: #000000;
+}
+
+.pbox-c9b
+{
+    color: #000000;
 }
