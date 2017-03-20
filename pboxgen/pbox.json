@@ -154,6 +154,27 @@
         },
 
         {
+            "title":"MISC TOOLS",
+            "colour":"pbox-c10",
+            "items":[
+                {
+                    "title":"WinSCP/PuTTY",
+                    "img":"picons/putty.png"
+                },
+
+                {
+                    "title":"various compression (7z,rar,arc,..)",
+                    "img":"picons/7z.png"
+                },
+
+                {
+                    "title":"x64dbg",
+                    "img":"picons/dbg.png"
+                }
+            ]
+        },
+
+        {
             "title":"FUTURE",
             "colour": "pbox-c9",
             "items":[
