@@ -5,6 +5,7 @@ body
     width: 100%;
     height: 100%;
     margin: 0;
+    font-family: meiryo;
     background-image: url("img/blurgreybg2.png");
 }
 
@@ -22,13 +23,23 @@ p
 
 .program-box-box
 {
+    display: inline-block;
     background-color: rgba(255,255,255,.4);
     border-radius: 3px;
     border-top-style: solid;
-    border-top-color: rgb(0,116,202);
     box-shadow: 0px 3px 15px -2px #e2e2e2;
+    margin: 15px;
     width: 300px;
-    height: 500px;
+}
+
+.pbox-title
+{
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 55px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .program-box
@@ -54,7 +65,36 @@ p
     width: 225px;
     height: 100%;
     font-size: 15px;
-    font-family: meiryo;
     line-height: 40px;
     vertical-align: top;
+}
+
+.pbox-c1a
+{
+    border-top-color: rgb(0,116,202);
+}
+
+.pbox-c1b
+{
+    color: rgb(0,116,202);
+}
+
+.pbox-c2a
+{
+    border-top-color: rgb(235,60,0);
+}
+
+.pbox-c2b
+{
+    color: rgb(235,60,0);
+}
+
+.pbox-c3a
+{
+    border-top-color: rgb(17,17,43);
+}
+
+.pbox-c3b
+{
+    color: rgb(17,17,43);
 }
