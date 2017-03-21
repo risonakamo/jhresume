@@ -15,6 +15,16 @@ p
     color: #211205;
 }
 
+a
+{
+    color: #553311;
+}
+
+a:hover
+{
+    color: #99cc00;
+}
+
 .wrap
 {
     /*position: relative;*/
@@ -26,4 +36,9 @@ p
 .lbs1
 {
     box-shadow: 0px 3px 15px -2px #e2e2e2;
+}
+
+.hidden
+{
+    display: none;
 }
