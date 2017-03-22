@@ -33,15 +33,20 @@
 
 .textwrap img
 {
+    vertical-align: top;
+}
+
+.sideimg
+{
     width: 200px;
     height: 300px;
-    vertical-align: top;
+    margin-right: 10px;
 }
 
 .wideimg
 {
     display: block;
     margin: auto;
-    width: 500px !important;
-    height: 100px !important;
+    width: 500px;
+    height: 100px;
 }
