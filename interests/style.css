@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.intbox
+{
+    display: block;
+    width: 800px;
+    margin: auto;
+}
+
+.inttitle
+{
+    margin: 0;
+}
+
+.intbox-content
+{
+    font-size: 14px;
+}
+
+.textwrap
+{
+    margin: 20px;
+    margin-top: 15px;
+}

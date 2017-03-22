@@ -1,0 +1,111 @@
+.program-box-box
+{
+    display: inline-block;
+    vertical-align: top;
+    background-color: rgba(255,255,255,.4);
+    border-radius: 3px;
+    border-top-style: solid;
+    box-shadow: 0px 3px 15px -2px #e2e2e2;
+    margin: 15px;
+    width: 300px;
+}
+
+.pbox-title
+{
+    width: 280px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 55px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pbox-c1a
+{
+    border-top-color: rgb(0,116,202);
+}
+
+.pbox-c1b
+{
+    color: rgb(0,116,202);
+}
+
+.pbox-c2a
+{
+    border-top-color: rgb(235,60,0);
+}
+
+.pbox-c2b
+{
+    color: rgb(235,60,0);
+}
+
+.pbox-c3a
+{
+    border-top-color: rgb(17,17,43);
+}
+
+.pbox-c3b
+{
+    color: rgb(17,17,43);
+}
+
+.pbox-c4a
+{
+    border-top-color: #72308f;
+}
+
+.pbox-c4b
+{
+    color: #72308f;
+}
+
+.pbox-c5a
+{
+    border-top-color: #ffde59;
+}
+
+.pbox-c5b
+{
+    color: #ffde59;
+}
+
+.pbox-c6a
+{
+    border-top-color: #8c8c8c;
+}
+
+.pbox-c6b
+{
+    color: #8c8c8c;
+}
+
+.pbox-c7a
+{
+    border-top-color: #2aad48;
+}
+
+.pbox-c7b
+{
+    color: #2aad48;
+}
+
+.pbox-c8a
+{
+    border-top-color: #d93d2f;
+}
+
+.pbox-c8b
+{
+    color: #d93d2f;
+}
+
+.pbox-c9a
+{
+    border-top-color: #000000;
+}
+
+.pbox-c9b
+{
+    color: #000000;
+}
