@@ -4,6 +4,7 @@
 {
     height: 100px;
     margin-bottom: 50px;
+    cursor: default;
 }
 
 .topbar-wrap
@@ -11,12 +12,41 @@
     width: 1000px;
     height: 100px;
     margin: auto;
+    user-select: none;
 }
 
 .top-button
 {
+    display: inline-block;
     width: 120px;
     height: 50px;
     border-radius: 5px;
+    margin-right: 10px;
     background-image: url("../img/browncheckbg.png");
+    cursor: pointer;
+}
+
+.topbar p
+{
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    /* padding-top: 13px; */
+    letter-spacing: 1px;
+    font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","Osaka","Osaka－等幅","Osaka-Mono","ＭＳ Ｐゴシック",sans-serif;
+    transition-property: color;
+    transition-duration: .2s;
+}
+
+.topbar p:hover
+{
+    color: orange;
+}
+
+.topbar a
+{
+    text-decoration: none;
 }
