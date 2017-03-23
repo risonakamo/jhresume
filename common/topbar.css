@@ -2,17 +2,26 @@
 
 .topbar
 {
-    height: 100px;
-    margin-bottom: 50px;
+    height: 80px;
+    margin-bottom: 30px;
     cursor: default;
 }
 
 .topbar-wrap
 {
+    position: relative;
     width: 1000px;
-    height: 100px;
+    height: 80px;
     margin: auto;
     user-select: none;
+}
+
+.links
+{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    width: 550px;    
 }
 
 .top-button
@@ -26,6 +35,17 @@
     cursor: pointer;
 }
 
+.top-button.selected
+{
+    background-image: url("../img/greencheck.png");
+}
+
+.selected p
+{
+    transition-property: none !important;
+    color: #5b3c12 !important;
+}
+
 .topbar p
 {
     width: 120px;
@@ -36,14 +56,14 @@
     text-align: center;
     /* padding-top: 13px; */
     letter-spacing: 1px;
-    font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","Osaka","Osaka－等幅","Osaka-Mono","ＭＳ Ｐゴシック",sans-serif;
+    font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",sans-serif;
     transition-property: color;
     transition-duration: .2s;
 }
 
 .topbar p:hover
 {
-    color: orange;
+    color: #99cc00;
 }
 
 .topbar a
