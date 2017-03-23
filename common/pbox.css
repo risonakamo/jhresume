@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .program-box-box
 {
     display: inline-block;
@@ -108,4 +110,24 @@
 .pbox-c9b
 {
     color: #000000;
+}
+
+.pbox-c10a
+{
+    border-top-color: #1d5f82;
+}
+
+.pbox-c10b
+{
+    color: #1d5f82;
+}
+
+.pbox-c11a
+{
+    border-top-color: #36393e;
+}
+
+.pbox-c11b
+{
+    color: #36393e;
 }

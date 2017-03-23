@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.topbar
+{
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.topbar-wrap
+{
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+
+.top-button
+{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-image: url("../img/browncheckbg.png");
+}

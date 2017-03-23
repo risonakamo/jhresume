@@ -50,3 +50,8 @@
     width: 500px;
     height: 100px;
 }
+
+.wide-text
+{
+    width: auto;
+}
