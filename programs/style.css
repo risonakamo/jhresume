@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+.wrap
+{
+    width: 1100px;
+}
+
 .title-bar
 {
     height: 100px;
