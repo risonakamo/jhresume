@@ -10,7 +10,7 @@
 .topbar-wrap
 {
     position: relative;
-    width: 1000px;
+    width: 900px;
     height: 80px;
     margin: auto;
     user-select: none;
@@ -56,7 +56,7 @@
     text-align: center;
     /* padding-top: 13px; */
     letter-spacing: 1px;
-    font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",sans-serif;
+    font-family: "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",meiryo,sans-serif;
     transition-property: color;
     transition-duration: .2s;
 }
@@ -69,4 +69,34 @@
 .topbar a
 {
     text-decoration: none;
+}
+
+.botbar
+{
+    position: relative;
+    height: 50px;
+    margin-top: 40px;
+    background-image: url("../img/browncheckbg.png");
+}
+
+.botwrap
+{
+    height: 50px;
+    user-select: auto;
+}
+
+.botwrap p
+{
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 18px;
+    color: white;
+    font-size: 9px;
+}
+
+.botwrap img
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
