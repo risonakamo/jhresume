@@ -3,6 +3,7 @@
 .entry-wrap
 {
     text-align: center;
+    min-height: 500px;
 }
 
 .contact-entry
@@ -14,11 +15,13 @@
 
 .contact-entry div
 {
-    display: inline-block;
+    width: 500px;
+    display: block;
 }
 
 .contact-entry .field
 {
+    display: inline-block;
     width: 60px;
     height: 28px;
     border-radius: 3px;
@@ -29,6 +32,7 @@
 
 .field p
 {
+    display: inline-block;
     text-align: center;
     padding-top: 3px;
     color: white;
