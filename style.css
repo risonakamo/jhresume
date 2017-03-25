@@ -1,14 +1,19 @@
 @charset "UTF-8";
 
-body
+.topbar
 {
-    background-image: url("img/blurgreybg2.png");
+    margin-bottom: 10px;
 }
 
-.centre-wrap
+.centrecover
 {
     display: block;
-    height: 400px;
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .lbox-box
@@ -46,10 +51,38 @@ body
 
 .about
 {
+    display: inline-block;
     margin-top: 10px;
     margin-left: 30px;
-    width: 610px;
+    width: 750px;
     height: 200px;
     border-radius: 5px;
+    font-size: 0;
     background-color: white;
+    overflow: hidden;
+}
+
+.about img,.about div
+{
+    display: inline-block;
+}
+
+.about .text
+{
+    font-size: 13px;
+    width: 400px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.about .text .pink
+{
+    color: #E9807B;
+}
+
+.about .about-title
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #553311;
 }
